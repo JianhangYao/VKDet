@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Editors and local backups
+.idea/
+.vscode/
+*.bak*
+.codex_backup*/
+
+# Logs and experiment outputs
+*.log
+*.log.json
+workdirs/
+work_dirs/
+outputs/
+visualization_*/
+
+# Generated preprocessing artifacts
+askd_cache/
+*.pkl
+*.pth
+*.pt
+
+# Large external assets
+data/**
+weights/**
+proposals/**
+
+# Keep optional documentation placeholders if added later.
+!data/README.md
+!weights/README.md
+!proposals/README.md
