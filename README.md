@@ -146,4 +146,4 @@ Evaluation uses `configs/dior/vkdet_dior_stage2_test.py` and loads the persisted
 
 ## Acknowledgements
 
-This project builds on [MMDetection](https://github.com/open-mmlab/mmdetection), [LP-OVOD](https://github.com/VinAIResearch/LP-OVOD), [ViLD](https://github.com/tensorflow/tpu/tree/master/models/official/detection/projects/vild), [CastDet](https://github.com/Li-Qingyun/CastDet), [RemoteCLIP](https://github.com/ChenDelong1999/RemoteCLIP), and [OLN](https://github.com/mcahny/object_localization_network). Please follow the licenses and dataset terms of the upstream projects when redistributing code, data, proposals, or weights.
+This project builds on [MMDetection](https://github.com/open-mmlab/mmdetection), [LP-OVOD](https://github.com/VinAIResearch/LP-OVOD), [ViLD](https://github.com/tensorflow/tpu/tree/master/models/official/detection/projects/vild), [RemoteCLIP](https://github.com/ChenDelong1999/RemoteCLIP), and [OLN](https://github.com/mcahny/object_localization_network). Please follow the licenses and dataset terms of the upstream projects when redistributing code, data, proposals, or weights.
