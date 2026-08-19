@@ -3,7 +3,6 @@
 <div align="center">
 <p>
   <a href="https://arxiv.org/abs/2511.18075"><img src="https://img.shields.io/badge/Paper-arxiv%3A2511.18075-blue" alt="Paper"/></a>
-  <a href="https://huggingface.co/papers/2511.18075"><img src="https://img.shields.io/badge/Daily%20Paper-huggingface-yellow" alt="HF Paper"/></a>
   <a href="https://github.com/ChenDelong1999/RemoteCLIP"><img src="https://img.shields.io/badge/VLM-RemoteCLIP-green" alt="RemoteCLIP"/></a>
 </p>
 </div>
@@ -34,7 +33,7 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-`requirements_h800.txt` records the fully pinned reference environment. It is useful for comparison, but a fresh installation should follow the shorter commands above because CUDA wheels and compiler toolchains vary between machines.
+`requirements.txt` records the fully pinned reference environment. It is useful for comparison, but a fresh installation should follow the shorter commands above because CUDA wheels and compiler toolchains vary between machines.
 
 ## Required directory layout
 
@@ -66,8 +65,8 @@ vk-det/
 │   ├── current_mmdetection_Head.pth
 │   ├── RemoteCLIP-ViT-B-32.pt
 │   └── ViT-B-32.pt
-├── askd_cache/                 # generated; ignored by Git
-└── workdirs/                   # generated; ignored by Git
+├── askd_cache/                 
+└── workdirs/                   
 ```
 
 ### Pretrained weights
